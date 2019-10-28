@@ -45,3 +45,7 @@ html {
 li {
     padding: 20px 20px;
 }
+
+body {
+    background-color: rgb(24, 23, 23);
+}
