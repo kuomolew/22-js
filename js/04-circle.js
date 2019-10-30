@@ -10,16 +10,3 @@ let calculate = function() {
         document.getElementById('area').innerText = '';
     }
 }
-
-
-
-      
-
-
-
-
-
-  
-
-
-
