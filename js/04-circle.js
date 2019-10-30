@@ -1,31 +1,15 @@
+document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>Area of this circle is: <span id="area"></span></h1>');
 
-let init =  function() {
-    console.log('It\'s alive...');
-
-    var radius = -1;
-    console.log(radius);
-
-    // function circleArea(){
-    //     radius = document.getElementById("radius").value;
-    //     console.log('start');
-    //     alert(radius);
-    
-    // }
-
-    function print() {
-        radius = document.getElementById("radius").value;
+let calculate = function() {
+    let radius = document.getElementById('radius').value;
+    if(radius > 0) {
+        let area = (Math.PI * radius * radius).toFixed(3);
+        
+        document.getElementById('area').innerText = area;
+    } else {
+        document.getElementById('area').innerText = '';
     }
-    console.log(radius);
-    document.getElementById("submit").addEventListener('click', print);
-
-    
-    document.getElementById('counter').insertAdjacentHTML('afterend', '<div id="two">two</div>');
-
-    console.log(radius);
 }
-
-init();
-
 
 
 
