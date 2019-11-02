@@ -1,3 +1,5 @@
+// Пользователь вводит сумму денег в кошельке и цену одной шоколадки. Программа выводит, сколько шоколадок может купить пользователь, и сколько сдачи у него останется.
+
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>You can buy <span id="number"></span> chocolate bars</h1>');
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1><span id="change"></span> $ will left in your pocket</h1>');
 

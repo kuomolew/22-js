@@ -1,3 +1,5 @@
+// Запросите у пользователя трехзначное число и выведите его задом наперед. Для решения задачи вам понадобится оператор % (остаток от деления).
+
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>Magic... <span id="newNumber"></span></h1>');
 
 let calculate = function() {

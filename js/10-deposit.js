@@ -1,3 +1,5 @@
+// Пользователь вводит сумму вклада в банк на 2 месяца, с процентной ставкой депозита 5% годовых. Вывести сумму начисленных процентов.
+
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>You will earn <span id="earn"></span>$</h1>');
 
 let calculate = function() {

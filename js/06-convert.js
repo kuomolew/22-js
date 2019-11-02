@@ -1,3 +1,5 @@
+//Реализуйте конвертор валют. Пользователь вводит доллары, программа переводит в евро. Курс валюты храните в константе.
+
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>Its <span id="area"></span> EUR</h1>');
 
 let calculate = function() {

@@ -1,3 +1,5 @@
+//Запросите у пользователя расстояние в км между двумя городами и за сколько часов он хочет добраться. Посчитайте скорость, с которой необходимо двигаться, чтобы успеть вовремя.
+
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>You should run with speed <span id="speed"></span> km/h</h1>');
 
 let calculate = function() {

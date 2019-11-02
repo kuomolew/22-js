@@ -1,3 +1,5 @@
+//Запросите у пользователя радиус окружности и выведите площадь такой окружности.
+
 document.getElementById('counter').insertAdjacentHTML("afterend", '<h1>Area of this circle is: <span id="area"></span></h1>');
 
 let calculate = function() {
