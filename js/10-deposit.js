@@ -4,7 +4,7 @@ let calculate = function() {
     let sum = document.getElementById('sum').value;
     if(sum > 0) {
         const rate = 5;
-        let earn = (sum * (5*2/12) /100).toFixed(2);
+        let earn = (sum * 0.05/12).toFixed(2)*2;
         
         
         document.getElementById('earn').innerText = earn;
